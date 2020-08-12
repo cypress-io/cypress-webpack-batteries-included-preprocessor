@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@cypress/eslint-plugin-dev": "5.0.0",
-    "@cypress/webpack-preprocessor": "5.4.2",
+    "@cypress/webpack-preprocessor": "5.4.4",
     "@fellow/eslint-plugin-coffee": "0.4.13",
     "@types/mocha": "8.0.0",
     "@types/webpack": "4.41.21",
