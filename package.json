@@ -7,7 +7,7 @@
     "lint": "eslint --ext .js,.jsx,.json,.ts,.tsx .",
     "lint-fix": "yarn lint --fix",
     "semantic-release": "semantic-release",
-    "test": "mocha test/e2e/*.spec.*"
+    "test": "mocha test/e2e/*.spec.* --timeout 4000"
   },
   "husky": {
     "hooks": {
@@ -57,7 +57,8 @@
     "@cypress/webpack-preprocessor": "^5.4.4"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "empty.js"
   ],
   "license": "MIT",
   "repository": {
