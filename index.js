@@ -13,6 +13,7 @@ const getDefaultWebpackOptions = (file, options = {}) => {
       rules: [{
         test: /(\.jsx?|\.mjs)$/,
         exclude: [/node_modules/],
+        type: 'javascript/auto',
         use: [{
           loader: require.resolve('babel-loader'),
           options: {
