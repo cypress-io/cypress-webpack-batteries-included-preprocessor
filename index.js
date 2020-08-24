@@ -11,6 +11,10 @@ const getDefaultWebpackOptions = (file, options = {}) => {
     },
     module: {
       rules: [{
+        test: /\.mjs$/,
+        include: /node_modules/,
+        type: 'javascript/auto',
+      }, {
         test: /(\.jsx?|\.mjs)$/,
         exclude: [/node_modules/],
         type: 'javascript/auto',
